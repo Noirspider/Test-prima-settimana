@@ -1,0 +1,166 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65rem;
+    padding: 0px 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*-------LOGO--------*/
+.logo {
+    background-color: black;
+    text-align: left;
+    padding-top: auto;
+    vertical-align: middle;
+    padding: 2em;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+/*--------Header-----*/
+header {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: top;
+    padding: 12em;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 220%;
+    color: #25a2c3;
+    font-weight: bold;
+    line-height: 1em;
+}
+
+header a {
+    background-color: #f04c2f;
+    border-radius: 5px;
+    padding: 15px 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+}
+
+/*------Article-----*/
+
+article {
+    padding: 3em;
+    line-height: 1.65em;
+    text-align: center;
+}
+
+article h2 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+article img {
+    border-radius: 100%;
+    margin: 1em;
+    width: fit-content;
+    width: 500px;
+}
+
+article div {
+    display: inline-block;
+    text-align: left;
+    width: 500px;
+}
+
+/*-----Section------*/
+section {
+    background-color: #e22d0e;
+    margin: 2em 0em;
+    color: white;
+    padding: 4em;
+    text-align: center;
+
+}
+
+section h1 {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+section blockquote {
+    font-style: italic;
+    font-size: x-large;
+    font-style: italic;
+}
+
+/*-----aside------*/
+aside {
+    padding: 15px;
+    text-align: center;
+}
+
+aside div {
+    border: 1px solid #dee1e3;
+    border-radius: 2%;
+    margin: 15px;
+    display: inline-block;
+}
+
+aside h3 {
+    color: #25a2c3;
+    font-weight: bold;
+}
+
+aside img {
+    width: 21em;
+    height: 16em;
+    margin-bottom: 1em;
+}
+
+aside p {
+    width: 19em;
+    margin: 1em;
+}
+
+/*------footer----*/
+footer {
+    background-color: #25a2c3;
+    color: white;
+    padding: 2em;
+    line-height: 1.65em;
+    text-align: center;
+}
+
+footer div {
+    max-width: fit-content;
+    text-align: left;
+    margin: 0 auto 2em auto;
+    border-bottom: 1px solid white;
+    padding-bottom: 2em;
+}
+
+footer h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+footer a {
+    color: white;
+}
+
+footer a, address, span {
+    opacity: 0.7;
+}
+
+footer span {
+    font-size: small;
+}
